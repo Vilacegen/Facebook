@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Facebook Home</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="user-profile">
+			<img src="">
+			<span>User Name</span>
+		</div>
+	</header
+	<div class="content"></div>
+	<div class="content">
+		<div class="post-container">
+			<p>Beautiful World.   
+				The World is a beautiful place to live in </p>
+		</div>
+		<div class="sidebar">
+			Friend request
+			<span>Friend Request</span></div>
+		</div>
+	</div>
+</body>
+</html>
+<style>
+    body{
+
+    
+
+/* Global Styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f2f5;
+}
+
+header {
+	background-color: #4267b2;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+.user-profile {
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+}
+
+.user-profile img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	margin: 20px;
+}
+
+.post-container {
+	flex: 1;
+	background-color: #fff;
+	padding: 20px;
+	margin-right: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+	flex: 0.3;
+	background-color: #fff;
+	padding: 20px;
+	margin-left: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+	.content {
+		flex-direction: column;
+	}
+	.post-container {
+		margin-right: 0;
+	}
+	.sidebar {
+		margin-left: 0;
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	/* Styles for medium screens */
+}
+
+@media (min-width: 1025px) {
+	/* Styles for large screens */
+}}
+
+</style>
