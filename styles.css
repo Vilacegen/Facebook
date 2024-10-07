@@ -1,37 +1,45 @@
-,<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet"  a href="fbk.css"
-</head>
-<body>
-    <div class="container">
-        <div class="login-box">
-            <h2>Login to facebook</h2>
-            <form action="fbk.html">
-                <button>Log in</button>
-                <div class="input-box">
-                    <input type="text" name="email" 
-                    placeholder="Email or Phone number" required>
-                </div>
-                <div class="input-box">
-                    <input type="password" name="password" placeholder="Password" required>
-                </div>
-                <div class="button-box">
-                    <button type="submit">Log in</button>
-                </div>
-                <div class="links">
-                    <a href="#">Forgotten account</a>
-                    <span></span>
-                    <a href="#">Create a new account</a>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-                </div>
-            </form>
-        </div>
-    </div>
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
 
-        
+.landing-page {
+    background: url('your-image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-</body>
-</html>
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ff6347; /* Tomato color */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff4500; /* Darker shade */
+}
